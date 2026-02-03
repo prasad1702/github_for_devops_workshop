@@ -1,0 +1,46 @@
+ls
+mkdir practice_git
+cd practice_git
+touch test.txt
+git init
+cd practice_git
+git status
+clear
+git add guiter
+clear
+git add test.py
+git status
+git commit test.py
+git commit -m  "Added test python code"
+git status
+clear
+git config --global user.name "Prasad Sakpal"
+git config --global user.email "prasadsankpal8@gmail.com"
+ 
+git clone .
+git clone https://github.com/prasad1702/github-test.txt.git .
+   33  git clone https://github.com/prasad1702/github-test.txt.git
+
+ 
+git push origin main
+ 
+git push origin master
+git remote -v
+git remote add origin https://github.com/prasad1702/practice_git.git
+git remote -v
+git status
+git push origin main
+clear
+git push origin master
+ls
+git pull origin master
+git --version
+cd ..  
+ history
+  git push origin master
+clear
+git remote add origin https://github.com/prasad1702/github_for_devops_workshop.git
+git remote -v
+git push -u origin main
+git push -u origin master
+
